@@ -6,15 +6,15 @@ relative_permalinks: true
 
 # Setup
 title:               Digital Charlie
-tagline:             'A blog for the work of Digital Charlie'
-description:         'A blog for the writing and work of Digital Charlie.'
+tagline:             'It%27s a blog and it has some writing'
+description:         'A blog for the work and writing of Charlie Furman.'
 url:                 http://digitalcharlie.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Digital Charlie
+  name:              Charlie Furman
   url:               https://twitter.com/furmanatorjr
   email:             furman.jr@gmail.com
 
