@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Digital Charlie
-tagline:             'It%27s a blog and it has some writing'
+tagline:             'It's a blog and it has some writing'
 description:         'A blog for the work and writing of Charlie Furman.'
 url:                 http://digitalcharlie.com
 baseurl:             ''
