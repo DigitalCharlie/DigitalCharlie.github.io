@@ -1,6 +1,7 @@
 body {
 	color:#1a1a1a;
 	font-family: Roboto;
+	text-align:center;
 }
 
 p {
@@ -11,11 +12,13 @@ p {
 h1 {
 	font-size: 32px;
 	font-weight:700;
+	margin-bottom:5px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight:700;
+	margin-bottom:5px;
 }
 
 .homepage_top {
@@ -23,7 +26,8 @@ h3 {
 }
 
 .homepage_intro {
-
+	position:absolute;
+	top:35%;
 }
 
 .homepage_name {
@@ -35,15 +39,29 @@ h3 {
 }
 
 .homepage_recentwork {
-
+	margin: 10px 0;
+	position: absolute;
+	bottom: 0;
 }
 
 .homepage_middle {
+	min-height:100vh;
 
 }
 
 .homepage_project {
 
+}
+
+.homepage_project a {
+	text-decoration: none;
+	color:#1a1a1a;
+}
+
+.homepage_project a:hover {
+	color: #ec476b;
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
 }
 
 .project_link {
@@ -55,30 +73,31 @@ h3 {
 }
 
 .project_description {
-
+	font-style: italic;
 }
 
 .homepage_footer {
-
+	background-color:#1a1a1a;
+	padding:20px 0;
 }
 
 .contact_info {
-
+	color:#fff;
 }
 
 @media screen and (min-width: 650px) {
 
 	p {
-		font-size:14px;
+		font-size:16px;
 		font-weight:300;
 	}
 
 	h1 {
-		font-size: 32px;
+		font-size: 54px;
 		font-weight:700;
 	}
 
 	h3 {
-		font-size: 24px;
+		font-size: 32px;
 		font-weight:700;
 	}
