@@ -70,14 +70,14 @@ h3 {
 	color:#1a1a1a;
 }
 
-.homepage_project h3:hover, .homepage_footer h3:hover {
+.homepage_project a:hover, .homepage_footer a:hover {
 	color: #ec476b!important;
 	transition-duration: .5s;
 	-webkit-transition-duration: .5s;
 }
 
 .homepage_project p:hover {
-	color:#1a1a1a;
+	color:#1a1a1a !important;
 	text-decoration: none;
 }
 
