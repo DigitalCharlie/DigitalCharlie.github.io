@@ -17,6 +17,7 @@ h1 {
 h3 {
 	font-size: 24px;
 	font-weight:700;
+	margin-bottom:5px;
 }
 
 .homepage_top {
@@ -51,6 +52,17 @@ h3 {
 
 }
 
+.homepage_project a {
+	text-decoration: none;
+	color:#1a1a1a;
+}
+
+.homepage_project a:hover {
+	color: #ec476b;
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+
 .project_link {
 
 }
@@ -60,11 +72,12 @@ h3 {
 }
 
 .project_description {
-
+	font-style: italic;
 }
 
 .homepage_footer {
 	background-color:#1a1a1a;
+	padding:20px 0;
 }
 
 .contact_info {
