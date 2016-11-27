@@ -1,38 +1,108 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<div class="homepage_top">
+  <div class="homepage_intro">
+    <div class="homepage_name">
+      Charlie Furman
+    </div>
+    <div class="homepage_title">
+      Freelance Digital Campaigner & Builder of Strange Projects
+    </div>
   </div>
-  {% endfor %}
+
+  <div class="homepage_recentwork">
+    Recent work &#x2193;
+  </div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<div class="homepage_middle">
+
+  <div class="homepage_project">
+    <a href="" class="project_link" target="_blank">
+      <div class="project_name">
+        <h3>
+          Project Name
+        </h3>
+      </div>
+      <div class="project_description">
+        <p>
+          Project Description
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <div class="homepage_project">
+    <a href="" class="project_link" target="_blank">
+      <div class="project_name">
+        <h3>
+          Project Name
+        </h3>
+      </div>
+      <div class="project_description">
+        <p>
+          Project Description
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <div class="homepage_project">
+    <a href="" class="project_link" target="_blank">
+      <div class="project_name">
+        <h3>
+          Project Name
+        </h3>
+      </div>
+      <div class="project_description">
+        <p>
+          Project Description
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <div class="homepage_project">
+    <a href="" class="project_link" target="_blank">
+      <div class="project_name">
+        <h3>
+          Project Name
+        </h3>
+      </div>
+      <div class="project_description">
+        <p>
+          Project Description
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <div class="homepage_project">
+    <a href="" class="project_link" target="_blank">
+      <div class="project_name">
+        <h3>
+          Project Name
+        </h3>
+      </div>
+      <div class="project_description">
+        <p>
+          Project Description
+        </p>
+      </div>
+    </a>
+  </div>
+
 </div>
 
+<div class="homepage_footer">
+  <div class="contact_info">
+    <a href="mailto:furman.jr@gmail.com" target="blank">
+      <h3>
+        Email me.
+      </h3>
+    </a>
+  </div>
+</div>
