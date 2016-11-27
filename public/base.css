@@ -28,7 +28,8 @@ h3 {
 }
 
 .homepage_intro {
-
+	position:absolute;
+	top:35%;
 }
 
 .homepage_name {
@@ -40,7 +41,9 @@ h3 {
 }
 
 .homepage_recentwork {
-
+	margin: 10px 0;
+	position: absolute;
+	bottom: 0;
 }
 
 .homepage_middle {
