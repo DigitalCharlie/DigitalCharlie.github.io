@@ -45,7 +45,7 @@ h3 {
 }
 
 .homepage_title {
-	max-width:550px;
+
 }
 
 .homepage_recentwork {
@@ -85,7 +85,7 @@ h3 {
 }
 
 .project_description {
-	max-width:550px;
+
 }
 
 .homepage_footer {
@@ -117,4 +117,9 @@ h3 {
 	h3 {
 		font-size: 32px;
 		font-weight:700;
+	}
+
+	.homepage_title, .project_description {
+		width:550px;
+		margin:0 auto;
 	}
