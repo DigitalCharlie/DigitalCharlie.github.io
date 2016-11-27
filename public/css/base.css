@@ -76,11 +76,6 @@ h3 {
 	-webkit-transition-duration: .5s;
 }
 
-.homepage_project p:hover {
-	color:#1a1a1a !important;
-	text-decoration: none;
-}
-
 .project_link {
 
 }
@@ -90,7 +85,7 @@ h3 {
 }
 
 .project_description {
-
+	color:#1a1a1a!important;
 }
 
 .homepage_footer {
