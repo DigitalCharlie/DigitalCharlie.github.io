@@ -4,6 +4,10 @@ body {
 	text-align:center;
 }
 
+body a {
+	text-decoration: none;
+}
+
 p {
 	font-size:14px;
 	font-weight:300;
@@ -70,16 +74,16 @@ h3 {
 @media screen and (min-width: 650px) {
 
 	p {
-		font-size:14px;
+		font-size:16px;
 		font-weight:300;
 	}
 
 	h1 {
-		font-size: 32px;
+		font-size: 46px;
 		font-weight:700;
 	}
 
 	h3 {
-		font-size: 24px;
+		font-size: 32px;
 		font-weight:700;
 	}
