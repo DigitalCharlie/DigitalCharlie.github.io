@@ -21,6 +21,13 @@ h3 {
 	margin-bottom:5px;
 }
 
+.container {
+	margin:0;
+	padding:0;
+	max-width:100%;
+	width:100%;
+}
+
 .homepage_top {
 	height:100vh;
 }
@@ -58,7 +65,7 @@ h3 {
 	color:#1a1a1a;
 }
 
-.homepage_project a:hover {
+.homepage_project a:hover, .homepage_project h3:hover {
 	color: #ec476b;
 	transition-duration: .5s;
 	-webkit-transition-duration: .5s;
@@ -79,6 +86,17 @@ h3 {
 .homepage_footer {
 	background-color:#1a1a1a;
 	padding:20px 0;
+}
+
+.homepage_footer a {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.homepage_footer a:hover, .homepage_footer h3:hover  {
+	color: #ec476b;
+	transition-duration: .5s;
+	-webkit-transition-duration: .5s;
 }
 
 .contact_info {
