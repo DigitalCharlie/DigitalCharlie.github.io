@@ -37,6 +37,7 @@ h3 {
 	top:35%;
 	left:0;
 	right:0;
+	padding:5px;
 }
 
 .homepage_name {
@@ -44,7 +45,7 @@ h3 {
 }
 
 .homepage_title {
-
+	max-width:550px;
 }
 
 .homepage_recentwork {
@@ -84,7 +85,7 @@ h3 {
 }
 
 .project_description {
-	font-style: italic;
+	max-width:550px;
 }
 
 .homepage_footer {
