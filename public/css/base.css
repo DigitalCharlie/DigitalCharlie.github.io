@@ -35,6 +35,8 @@ h3 {
 .homepage_intro {
 	position:absolute;
 	top:35%;
+	left:0;
+	right:0;
 }
 
 .homepage_name {
@@ -49,6 +51,8 @@ h3 {
 	margin: 10px 0;
 	position: absolute;
 	bottom: 0;
+	left:0;
+	right:0;
 }
 
 .homepage_middle {
@@ -65,8 +69,8 @@ h3 {
 	color:#1a1a1a;
 }
 
-.homepage_project a:hover, .homepage_project h3:hover {
-	color: #ec476b;
+.homepage_project a:hover, .homepage_footer a:hover {
+	color: #ec476b!important;
 	transition-duration: .5s;
 	-webkit-transition-duration: .5s;
 }
@@ -91,12 +95,6 @@ h3 {
 .homepage_footer a {
 	text-decoration: none;
 	color:#ffffff;
-}
-
-.homepage_footer a:hover, .homepage_footer h3:hover  {
-	color: #ec476b;
-	transition-duration: .5s;
-	-webkit-transition-duration: .5s;
 }
 
 .contact_info {
