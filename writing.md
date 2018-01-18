@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog
+title: My Writing
 ---
 
-Just a small sampling of thoughts that felt like they merit writing.
+<p>Sometimes writing helps me process my thoughts.</p>
 
 <ul>
   {% for post in site.posts %}
