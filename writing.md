@@ -5,7 +5,7 @@ title: My Writing
 
 <p>Sometimes writing helps me process my thoughts.</p>
 
-<ul>
+<ul class="post_list">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>

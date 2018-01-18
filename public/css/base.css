@@ -1,6 +1,7 @@
 body {
 	color:#1a1a1a;
 	font-family: Roboto;
+	text-align:center;
 }
 
 p {
@@ -12,14 +13,12 @@ h1 {
 	font-size: 32px;
 	font-weight:700;
 	margin-bottom:5px;
-	text-align: center;
 }
 
 h3 {
 	font-size: 22px;
 	font-weight:700;
 	margin-bottom:5px;
-	text-align: center;
 }
 
 .container {
@@ -39,7 +38,6 @@ h3 {
 	left:0;
 	right:0;
 	padding:5px;
-	text-align:center;
 }
 
 .homepage_name {
@@ -110,6 +108,7 @@ h3 {
 
 .post_list {
 	list-style: none;
+	text-align:left;
 }
 
 @media screen and (min-width: 650px) {
